@@ -1,0 +1,96 @@
+#Calculator
+
+print("Enter your first number")
+first = input()
+
+print("Enter your second number")
+second = input()
+
+print("sum of these numbers is ", int(first) + int(second))
+
+                                                            #***********************************
+
+#numbers = [2,10,11,4,7,9]
+#numbers[1]=24
+#print(numbers)
+
+d1 = {"bar": "beer",
+      "machine": "pc",
+      "book": "subtitles",
+       "animals": {"b": "book", "l": "look"}  }
+
+del d1["bar"]
+d1.update({"familly": "asttik"})
+print(d1)
+
+
+
+# If ,else or elif
+
+print("Tell me your age ?")
+third = int(input())
+
+if third > 18 and third <100:
+    print("Yes u can drive")
+
+elif third == 18:
+    print("your age is 18, we cant decide so u have to come physically")
+
+else:
+    print("No. you are not eligible to Drive")
+
+
+
+#dictionary
+
+
+
+dict = {"pc": "computer", "laptop": "battery"}
+
+
+name = input("Enter names from dictionary:")
+
+print(dict[name])
+
+                                                             #end *******
+
+
+
+
+
+dict = {"pc": "computer", "laptop": "battery"}
+
+a = input("enter your word :")
+
+b = a.capitalize()
+
+print(b, "=", dict[a])
+
+
+
+
+# FOR loops in pytjon
+
+list = [1,2,3,4]
+for items in list:
+    print(items)
+
+
+
+
+
+# Break And Continue
+
+
+while (True):
+    person = int(input("Enter your number ?\n"))
+    if person > 100:
+        print("congrats you havae entered the number\n")
+        break
+
+    else:
+        print("Try again\n")
+        continue
+
+
+
